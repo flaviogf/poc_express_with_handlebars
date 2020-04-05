@@ -1,0 +1,9 @@
+<ul class="news__list">
+  {{#each news as |it|}}
+  <li class="news__item">
+    <span class="news__image" style="background-image: url('{{it.image}}');"></span>
+    <h3 class="news__title">{{it.title}}</h3>
+    <p class="news__author">{{it.author}}</p>
+  </li>
+  {{/each}}
+</ul>
