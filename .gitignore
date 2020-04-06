@@ -1,4 +1,5 @@
 *.sqlite3
+.env
 node_modules
 src/public/**/*.css
 src/public/**/*.js
