@@ -25,7 +25,7 @@ yarn
 ````
 
 ````sh
-yarn start
+yarn watch
 ````
 
 ## :memo: License
